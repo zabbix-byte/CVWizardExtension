@@ -9,32 +9,64 @@
 
 <body>
     <div class="container" style="padding:1rem">
-        <h2 class="text-center">CVWizard LinkedIn Connector</h2>
+        <h2 class="text-center">
+            <img src="static/cv_login_preview_128.png">
+        </h2>
+        <h2 class="text-center"><strong>CVWizard</strong> LinkedIn Connector</h2>
         <h6 class="text-center">Follow these simple steps to link the app with LinkedIn</h6>
         <div class="row">
             <div class="col-xs-6">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">1 - Start by signing into <a href="https://www.linkedin.com/login">LinkedIn</a></h5>
+                        <h5 class="card-title">1 - Start by signing into <a
+                                href="https://www.linkedin.com/login"><strong>LinkedIn</strong></a></h5>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6" style="margin-top: 10px;margin-bottom:50px">
+            <div class="col-xs-6" style="margin-top: 10px;margin-bottom:60px">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">2 - The next step is to sign in <a href="http://localhost/auth/signin/">CVWizard</a></h5>
+                        <h5 class="card-title">2 - The next step is to sign in <a
+                                href="http://localhost/auth/signin/"><strong>CVWizard</strong></a></h5>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-xs-1 text-center" style="position:fixed;bottom:0;left:0;width:100%;height:50px;padding-bottom:10px">
-            <button type="button" id="connect" class="btn btn-dark">Connect with Linkedin</button>
+        <div class="col-xs-1 text-center"
+            style="position:fixed;bottom:0;left:0;width:100%;height:60px;padding-bottom:10px">
+            <button type="button" id="connect" class="btn btn-page btn-lg"><strong>Connect with Linkedin</strong>
+            </button>
         </div>
     </div>
 </body>
 
 <style>
+    .card {
+        background-color: #4f4598;
+        color: #fff;
+        border: wheat 1px solid;
+        border-radius: 3px;
+    }
 
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: wheat;
+    }
+
+    .btn-page {
+        color: white;
+        background-color: #4f4598;
+        border-radius: 3px;
+    }
+
+    .btn-page:hover {
+        color: #0d141c;
+        background-color: wheat;
+    }
 </style>
 <script src="script.js"></script>
 
