@@ -1,9 +1,9 @@
 {
-    "name": "Covid-19 Stats UK",
+    "name": "CVWizard",
     "version": "1.0.0",
-    "description": "latest covid data of UK",
+    "description": "CVWizard LinkedIn Connector: Seamlessly connect your LinkedIn profile for effortless integration.",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "author": "Vasile Ovidiu Ichim | https://github.com/zabbix-byte",
     "permissions": [
         "cookies",
         "tabs"
@@ -14,6 +14,20 @@
     ],
     "action": {
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
+        "default_title": "CVWizard",
+        "default_icon": {
+            "16": "static/cv_login_preview_16.png",
+            "32": "static/cv_login_preview_32.png",
+            "48": "static/cv_login_preview_48.png",
+            "64": "static/cv_login_preview_64.png",
+            "128": "static/cv_login_preview_128.png"
+        }
+    },
+    "icons": {
+        "16": "static/cv_login_preview_16.png",
+        "32": "static/cv_login_preview_32.png",
+        "48": "static/cv_login_preview_48.png",
+        "64": "static/cv_login_preview_64.png",
+        "128": "static/cv_login_preview_128.png"
     }
 }
