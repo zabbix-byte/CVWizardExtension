@@ -6,7 +6,8 @@
     "author": "Vasile Ovidiu Ichim | https://github.com/zabbix-byte",
     "permissions": [
         "cookies",
-        "tabs"
+        "tabs",
+        "storage"
     ],
     "host_permissions": [
         "https://www.linkedin.com/",

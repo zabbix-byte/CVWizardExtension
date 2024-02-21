@@ -12,30 +12,25 @@
         <h2 class="text-center">
             <img src="static/cv_login_preview_128.png">
         </h2>
-        <h2 class="text-center"><strong>CVWizard</strong> LinkedIn Connector</h2>
-        <h6 class="text-center">Follow these simple steps to link the app with LinkedIn</h6>
-        <div class="row">
-            <div class="col-xs-6">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">1 - Start by signing into <a
-                                href="https://www.linkedin.com/login"><strong>LinkedIn</strong></a></h5>
+        <div class="container" style="width: 300px;">
+            <h2 class="text-center" style="margin-bottom: 60px;"><strong>CVWizard</strong> LinkedIn Connector</h2>
+            <div class="col-xs-1 text-center"
+                style="position:fixed;bottom:0;left:0;width:100%;height:60px;padding-bottom:10px">
+                <button type="button" id="connect" class="btn btn-page btn-lg">
+
+                    <strong>Connect with LinkedIn</strong>
+
+                    <svg style="margin-bottom: 8px;margin-left: 3px;" xmlns="http://www.w3.org/2000/svg" width="14"
+                        height="14" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                        <path
+                            d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                    </svg>
+                    <div id="loading-icon" style="display: none;float: left;margin-right: 10px;margin-top: 5px;"
+                        class="loading-screen">
+                        <div class="spinner-border" style="width: 20px;height: 20px;" role="status"></div>
                     </div>
-                </div>
+                </button>
             </div>
-            <div class="col-xs-6" style="margin-top: 10px;margin-bottom:60px">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">2 - The next step is to sign in <a
-                                href="http://localhost/auth/signin/"><strong>CVWizard</strong></a></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-1 text-center"
-            style="position:fixed;bottom:0;left:0;width:100%;height:60px;padding-bottom:10px">
-            <button type="button" id="connect" class="btn btn-page btn-lg"><strong>Connect with LinkedIn</strong>
-            </button>
         </div>
     </div>
 </body>
